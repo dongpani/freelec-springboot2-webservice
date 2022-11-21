@@ -15,7 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 public class PostRepositoryTest {
     @Autowired
-    PostRepository postsRepository;
+    PostsRepository postsRepository;
 
     @After
     public void cleanup() {
